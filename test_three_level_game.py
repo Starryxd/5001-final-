@@ -53,7 +53,7 @@ def test_guess_number():
         assert guess_number() == False, "Test failed: Incorrect guesses should return False"
 
     # Test for handling non-integer input, then correct guess on 7th attempt
-    with patch('builtins.input', side_effect=['invalid', '10', '20', '30', '40', '50', '97']), \
+    with patch('builtins.input', side_effect=['hdjhfdj', '10', '20', '30', '40', '50', '97']), \
          patch('random.randint', return_value=97):
         assert guess_number() == True, "Test failed: Should handle non-integer input and continue"
 
