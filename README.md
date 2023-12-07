@@ -95,7 +95,8 @@ Different games might have different requirement for input validation and error 
 
 ## Example Runs
 When you download main.py and run it, the game will start for play.
-![example run.png](..%2Fexample%20run.png)
+<img width="658" alt="example run" src="https://github.com/Starryxd/5001-final-/assets/150980189/9019fbab-da4e-4f20-84db-d609fc5e87f6">
+
 
 ## Testing
 I write a test file for the function named test_three_level_game.py. And the main file is invoked the game.
